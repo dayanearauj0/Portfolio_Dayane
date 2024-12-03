@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+    }
+    
+    .nav-bar {
+        background-color: #ff6464;
+        height: 50px;
+        border-bottom: 1px solid #bebebe;
+        position: fixed;
+        padding: 5px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    main {
+    padding-top: 60px; /*para a main não ficar aculta na nav*/
+    } 
+    
+    .menu {
+        display: flex;
+        justify-content:center;
+        gap: 30px; /* espaçamento dos icones do menu*/
+        list-style: none; /* o estilo da lista n terá nenhum caractere*/
+    
+    }
+    
+    .hero-section {
+        max-width: 900px; /*a largura máxima q o conteúdo terá*/
+        margin: 0 auto; /* "0" centraliza em cima/baixo e "auto" da esquerda/direita*/
+    }
+    
+    .hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px; 
+    }
+    
+    img {
+        mix-blend-mode: darken; /*removee fundo da img*/
+    }
+    
+    .hero-text {
+        max-width: 50%;
+    }
+    
+    .hero-text > h1 {
+        font-size: 2em;
+        color: #282938;
+    }
+    
+    .hero-text > h1 > span {
+        color: #ff6363;
+    }
+    
+    .hero-text > p {
+        margin: 20px 0;
+        color: #1c1e53;
+    }
+    
+    .button-group {
+        display: flex;
+        gap: 4px;
+        width: 50%;
+    }
+    
+    .btn {
+        border: 1px solid #ff6464;
+        color: #ffffff;
+        border-radius: 5px;
+        width: 280px;
+        height: 40px;
+        background-color: #ff6464;
+    
+    }
+    
+    .btn-github {
+        color: #ff6464;
+        border-radius: 5px;
+        width: 280px;
+        height: 40px;
+        background-color: #ffffff;
+        border-color: #ff6464;
+    }
+    
+    .hero-image > img {
+        width: 200px; /* Largura fixa */
+        border-radius: 50%; /* Torna a imagem circular */
+    }
+    
+    .section-formacoes {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        font-size: 32px;
+        color: #ff6464;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .list-formacao {
+        list-style: none;
+    }
+    
+    .formacao-itens {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid #bebebe;
+        padding: 60px 0;
+    }
+    
+    .sobre-mim {
+        max-width: 900px; 
+        margin: 0 auto; 
+        background-color: #ff646456;
+    }
+    
+    .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px; 
+    }
+    
+    .mim {
+        max-width: 50%;
+    }
+    
+    .mim > h2 {
+        color: #ff6363;
+    }
+    
+    .mim  > p {
+        margin: 20px 0;
+        color: #1c1e53;
+    }
+    
+    .rodape {
+        background-color: #fcfcfc;
+        height: 100px;
+        border-bottom: 1px solid #bebebe;
+        background-color: #ff6464;
+        height: 50px;
+    }
+    
+    .icones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
