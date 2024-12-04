@@ -142,11 +142,10 @@ html{
     }
     
     .rodape {
-        background-color: #fcfcfc;
         height: 100px;
         border-bottom: 1px solid #bebebe;
-        background-color: #ff6464;
-        height: 50px;
+        background-color:#ff6363;
+        ;
     }
     
     .icones {
