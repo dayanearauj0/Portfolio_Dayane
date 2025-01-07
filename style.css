@@ -70,7 +70,7 @@ html{
         border: 1px solid #ff6464;
         color: #ffffff;
         border-radius: 5px;
-        width: 280px;
+        width: 180px;
         height: 40px;
         background-color: #ff6464;
     
@@ -79,7 +79,7 @@ html{
     .btn-github {
         color: #ff6464;
         border-radius: 5px;
-        width: 280px;
+        width: 180px;
         height: 40px;
         background-color: #ffffff;
         border-color: #ff6464;
