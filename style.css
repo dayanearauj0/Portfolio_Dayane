@@ -15,7 +15,7 @@ html{
     }
     
     main {
-    padding-top: 60px; /*para a main não ficar aculta na nav*/
+    padding-top: 120px; /*para a main não ficar aculta na nav*/
     } 
     
     .menu {
@@ -28,14 +28,16 @@ html{
     
     .hero-section {
         max-width: 900px; /*a largura máxima q o conteúdo terá*/
-        margin: 0 auto; /* "0" centraliza em cima/baixo e "auto" da esquerda/direita*/
+        margin-top: 0 auto; /* "0" centraliza em cima/baixo e "auto" da esquerda/direita*/
     }
     
     .hero-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 20px; 
+        /*justify-content: space-between;*/
+        gap: 4px; 
+        width: 100%;
+        flex-wrap: wrap;
     }
     
     img {
@@ -62,8 +64,9 @@ html{
     
     .button-group {
         display: flex;
-        gap: 4px;
-        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+       
     }
     
     .btn {
@@ -86,7 +89,7 @@ html{
     }
     
     .hero-image > img {
-        width: 200px; /* Largura fixa */
+        width: 300px; /* Largura fixa */
         border-radius: 50%; /* Torna a imagem circular */
     }
     
