@@ -122,6 +122,9 @@
         padding: 50px 20px;
         max-width: 900px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     h2 {
@@ -146,6 +149,7 @@
     .sobre-mim {
         max-width: 900px; 
         margin: 0 auto; 
+        padding: 50px 20px;
         background-color: #ff646456;
     }
     
@@ -169,6 +173,11 @@
         color: #1c1e53;
     }
     
+    .hero-image-sobre > img {
+        width: 300px; /* Largura fixa */
+        border-radius: 50%; /* Torna a imagem circular */
+    }
+
     .rodape {
         height: 70px;
         width: 100%;
