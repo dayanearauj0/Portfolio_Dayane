@@ -68,7 +68,7 @@
     }
     
     .hero-text {
-        max-width: 50%;
+        width: 50%;
     }
     
     .hero-text > h1 {
@@ -114,6 +114,7 @@
     }
     
     .hero-image > img {
+        
         width: 300px; /* Largura fixa */
         border-radius: 50%; /* Torna a imagem circular */
     }
