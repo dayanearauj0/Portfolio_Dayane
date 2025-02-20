@@ -1,6 +1,4 @@
-<div style="text-align: center;">
-    <h1 style="display: inline; margin: "Meu Primeiro Portfolio 🏆>  
-</div>
+# Meu Primeiro Portfolio 🏆
 
 <img src="/img/portfolio dayane.png">
 
